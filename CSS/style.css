@@ -50,11 +50,23 @@ h1{
 
 }
 
+.t {
+    color: #fff;
+}
+
 .texto1 p {
     line-height: 1.5; /* Ajusta este valor según tus preferencias */
     margin: 0; /* Elimina el margen vertical por defecto de los párrafos */
     padding: 5%;
   }
+
+  .texto12 p {
+    line-height: 1.5; /* Ajusta este valor según tus preferencias */
+    margin: 0; /* Elimina el margen vertical por defecto de los párrafos */
+    padding: 5%;
+    color: #fff;
+  }
+
 section{
   display: flex;
   flex-direction: column;
