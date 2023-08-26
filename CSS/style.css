@@ -5,6 +5,11 @@ html {
 
 /* Barra de navegacion */ 
 
+#SSS{
+
+    font-size: 2rem;
+}
+
 .navbar {
     padding: 2rem;
     background-color: white;
