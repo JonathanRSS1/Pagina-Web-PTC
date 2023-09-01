@@ -4,6 +4,7 @@
 .navbar {
     padding: 2rem;
     background-color: white;
+    flex-direction: column;
 
 }
 
@@ -39,8 +40,6 @@ font-weight: bold;
 }
 /*cuepo*/
 body {
-    display: flex;
-    flex-direction: column;
     min-height: 100%;
     background-color: rgb(255, 255, 255); 
  }
@@ -50,41 +49,68 @@ body {
     height: 100%;
 }
 
-button {
-    background: black;
-    cursor: pointer;
-    border: none;
-    padding: 16px 32px;
-    color: #fff;
-    font-size: 24px;
-    font-weight: bold;
-    position: relative;
-    border-radius: 24px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
 }
-button::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(
-        45deg,
-        red,blue,deeppink,blue,
-        red,blue,deeppink,blue
-    );
-    background-size: 800%;
-    border-radius: 10px;
-    filter: blur(8px);
-    animation: glowing 20s linear infinite;
-}
-@keyframes glowing {
-    0% {
-        background-position:0 0;
-    }
+
+
+.card{
+
+    width: 90%;
     
+    margin: 0 auto;
+    padding: 60px 0;
+    max-width: 1200px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3.5em;
+    flex-wrap: wrap;
+
 }
+
+.card_item{
+    background: #f2f2f2;
+    padding-bottom: 3em;
+    flex-basis: 280px;
+    max-width: 450px;
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+
+.card_content{
+    width: 90%;
+    margin: auto;
+
+}
+
+.card_picture{
+    width: 90%;
+    margin: 0 auto;
+    background: cornflowerblue;
+    position: relative;
+    bottom: 2em;
+}
+
+.card_img{
+    width: 100%;
+
+}
+
+.card_title{
+    margin-bottom: 1em;
+}
+
+
+
+
+
 
 /*FOOTER*/
 

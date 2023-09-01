@@ -49,6 +49,69 @@ body {
     height: 100%;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family: 'Poppins',sans-serif;
+    background: burlywood;
+}
+
+.card{
+
+    width: 90%;
+    margin: 0 auto;
+    padding: 60px 0;
+    max-width: 1200px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3.5em;
+    flex-wrap: wrap;
+
+}
+
+.card_item{
+    background: #f2f2f2;
+    padding-bottom: 3em;
+    flex-basis: 280px;
+    max-width: 450px;
+    flex-grow: 1;
+}
+
+
+.card_content{
+    width: 90%;
+    margin: auto;
+
+}
+
+.card_picture{
+    width: 90%;
+    margin: 0 auto;
+    background: cornflowerblue;
+    position: relative;
+    bottom: 2em;
+}
+
+.card_img{
+    width: 100%;
+
+}
+
+.card_title{
+    margin-bottom: 1em;
+}
+
+
+
 
 
 /*FOOTER*/
