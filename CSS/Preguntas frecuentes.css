@@ -7,89 +7,87 @@ html{
     box-sizing: inherit;
 }
 
-.closeModalBtn{
-    opacity: 1;
-    background-color: #000 !important;
-    color: #fff !important;
-    border-radius: 4rem;
-    width: 4rem;
-    height: 4rem;
-      margin-top: -40px;
-  }
-  .modal_head{
-    background-color: #0095FB !important;
-    color: #fff !important;   
-    padding: 1rem !important;  
-      letter-spacing: 2px;
-      font-size: 18px;
-      
-    text-align: center !important;        
-  }
-  .custom_modal{
-    box-shadow: 0 25px 70px 0 rgb(0 0 0 / 65%) !important;
-    width: 85% !important;
-  }
-  
-  .content-area h3{
-      font-family: "Poppins",sans-serif;
-      font-size: 25px;
-      margin-bottom: 20px;
-  }
-  
-  .content-area p{
-      font-family: "Poppins",sans-serif;
-      font-size: 17px;
-      margin-bottom: 30px;
-  }
-  
-  .content-area ul li{
-      list-style: none;
-      line-height: 22px;
-     
-      
-  }
-  
-  .content-area .fa{
-      color: deepskyblue;
-       margin-right: 20px;
-       
-  }
-  
-  .content-area img{
-      margin-bottom: 55px;               
-      transition: all 0.5s ease-in-out;
-  }
-  
-  
-  .content-area img:hover{
-      box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-  }
-  .modal-content{
-      padding: 30px;
-      margin-top: 84px;
-      background-image: url(images/dots.png);
-       
-  }
-  
-  .modal_head{
-       background-color: #fc9842;
-       background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%);              
-      font-family: 'Poppins',sans-serif;
-      
-  }
-
-
-
-
-/*cuerpo*/
-
-
 body,h1,h2,h3,h4,p,ol,ul{
     margin: 0;
     padding: 0;
     font-weight: normal;
     font-family: 'Poppins', sans-serif;
 }
+
+
+.closeModalBtn{
+  opacity: 1;
+  background-color: #000 !important;
+  color: #fff !important;
+  border-radius: 4rem;
+  width: 4rem;
+  height: 4rem;
+    margin-top: -40px;
+}
+.modal_head{
+  background-color: #0095FB !important;
+  color: #fff !important;   
+  padding: 1rem !important;  
+    letter-spacing: 2px;
+    font-size: 18px;
+    
+  text-align: center !important;        
+}
+.custom_modal{
+  box-shadow: 0 25px 70px 0 rgb(0 0 0 / 65%) !important;
+  width: 85% !important;
+}
+
+.content-area h3{
+    font-family: "Poppins",sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.content-area p{
+    font-family: "Poppins",sans-serif;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.content-area ul li{
+    list-style: none;
+    line-height: 22px;
+   
+    
+}
+
+.content-area .fa{
+    color: deepskyblue;
+     margin-right: 20px;
+     
+}
+
+.content-area img{
+    margin-bottom: 55px;               
+    transition: all 0.5s ease-in-out;
+}
+
+
+.content-area img:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.modal-content{
+    padding: 30px;
+    margin-top: 84px;
+    background-image: url(images/dots.png);
+     
+}
+
+.modal_head{
+     background-color: #fc9842;
+     background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%);              
+    font-family: 'Poppins',sans-serif;
+    
+}
+
+ 
+
 
 img{
     max-width: 100%;
@@ -124,6 +122,7 @@ body{
     position: relative;
 }
 
+
 .main::before{
     content: "";
     position: absolute;
@@ -139,7 +138,6 @@ body{
     z-index: 1;
 }
 
-/*Barra de navegacion*/
 .header{
     position: absolute;
     top: 25px;
@@ -193,7 +191,7 @@ a.logo{
 .contents{
     position: relative;
     z-index: 2;
-    background: url(../IMG/img\ preguntas\ frecuentes/nataren.png) center bottom no-repeat;
+    background: url(../IMG/img\ preguntas\ frecuentes/NATAREN1.png) center bottom no-repeat;
     background-size: auto 90%;
     height: 100vh;
 }
@@ -1173,4 +1171,3 @@ background: linear-gradient(to right, #61045F, #AA076B); /* W3C, IE 10+/ Edge, F
     
     
 }
-

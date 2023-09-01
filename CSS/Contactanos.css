@@ -200,3 +200,9 @@ footer .wave#wave4{
         background-position-x: 1000px;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
