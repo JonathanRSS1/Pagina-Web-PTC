@@ -131,7 +131,7 @@ body{
     width: 70%;
     height: 100vh;
     background-color: #fc9842;
-    background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%);
+    background-image: linear-gradient(315deg, #fc91f2 0%, #fe5f75 74%);
     overflow: hidden;
     transform: skewX(-15deg);
     transform-origin: 0 0;

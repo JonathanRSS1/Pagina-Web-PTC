@@ -1,102 +1,414 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
-
-<!--metadatos-->
     <meta charset="UTF-8">
-    <meta name="author" content="JJNMDA">
-    <meta name="description" content="Pagina web SSS">
-    <meta name="keywords" content="HTML, CSS, JavaScript, React ">
-    <meta name="viewport" content="width=device-width, initial-scale=1.02">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 
-<!--Titulo-->
+    <link rel="stylesheet" href="../CSS/Acerca de nosotros.css">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+
+    <!--Titulo-->
 <title>SSS</title>
 
 <!--Favicon(Icono de la pestaña)-->
 <link rel="icon" type="image/x-icon" href="./IMG/LOGO.png">
 
-<!--CSS DE EL INICIO-->
-<link rel="stylesheet" href="../CSS/Acerca de nosotros.css">
-
-<!--Boostrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
-<script src="/Js/inicio.js"></script>
+    <!--script de boostrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+  <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700&display=swap" rel="stylesheet">
+  
+
 
 </head>
 
-
-
-  <!--Barra de navegacion-->
-<nav class="navbar navbar-expand-md bg-light">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbar-Toggler">
-      <div class="d-flex align-items-center"> <!-- Agrega la clase flexbox para alinear elementos -->
-        <a class="navbar-brand" href="#">
-          <img src="../IMG/compras.png" width="50" alt="Logo de la pagina web ">
-        </a>
-        <p class="ms-3 mb-0 custom-text">S.S.S</p>
-      </div>
-
-      <ul class="navbar-nav d-flex justify-content-center aling-items-center ">
-        <li class="nav-item">
-          <a class="nav-link custom-link" aria-current="page" href="../index.html">INICIO</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link custom-link" href="../Pages/Funcionalidades.html">FUNCIONALIDADES</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link custom-link" href="../Pages/Acerca De Nosotros.html">ACERCA DE NOSOTROS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link custom-link" href="../Pages/Contactanos.html">CONTACTANOS</a>
-        </li>
-      </ul>
-
-    </div>
-  </div>
-</nav>
-
-  <br>
-
-  <!--FOOTER-->
-
-<footer>
-
-  <div class="waves">
-      <div class="wave" id="wave1"></div>
-      <div class="wave" id="wave2"></div>
-      <div class="wave" id="wave3"></div>
-      <div class="wave" id="wave4"></div>
-  </div>
-  
-  <ul class="social_icon">
-    <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
-    <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
-    <li><a href="#"><ion-icon name="link-outline"></ion-icon></a></li>
-    <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
-  </ul>
-  
-
-<p>!! Copyright © 2023 derechos reservados a JJNMDA</p>
-
-
-
-</footer>
-
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</body>
-
 <!--script de boostrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-</body>
-</html>
+
+    <body>
+
+      <nav class="navbar navbar-expand-lg bg-light "> <!-- Agregamos la clase "fixed-top" para fijar la barra de navegación en la parte superior -->
+        <div class="container-fluid">
+          
+          <a class="navbar-brand" href="#"><a class="navbar-brand" href="#">
+            <img src="./IMG/LOGO2.svg" alt="Bootstrap" width="30" height="34">
+          </a>
+      </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 center"> <!-- Utilizamos la clase "center" para centrar los elementos -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html"><button type="button" class="btn ">INICIO</button></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Pages/Funcionalidades.html"><button type="button" class="btn ">FUNCIONALIDADES</button></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Pages/Acerca De Nosotros.html"><button type="button" class="btn ">ACERCA DE NOSOTROS</button></a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="../Pages/Contactanos.html"><button type="button" class="btn ">CONTACTANOS</button></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Pages/Preguntas Frecuentes.html"><button type="button" class="btn ">PREGUNTAS FRECUENTES</button></a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto"> <!-- Utilizamos la clase "ml-auto" para mover "LICENCIA" a la derecha -->
+              <li class="nav-item">
+                <a class="nav-link" href="../Pages/Licencia.html"><button type="button" class="btn btn-dark"><i class="bi bi-handbag-fill"></i><br>LICENCIA</button></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      
+      
+      
+
+    <div class="container_all" id="container__all">
+        <div class="cover">
+
+            <!--INICIO WAVE-->
+
+                <div class="bg_color"></div>
+                <div class="wave w1"></div>
+                <div class="wave w2"></div>
+
+            <!--FINAL WAVE-->
+
+            <div class="container__cover">
+                <div class="container__info">
+                    <h1>Quienes</h1>
+                    <h2>Somos?</h2>
+                    <p>Quieres saber mas sobre los creadores de este programa como se llevo acabo sus opiniones sobre el dessarrollo de este y si les gusto hacerlo desliza hacia abajo y descubrelo </p>
+                    <a href="tu_link_aqui" class="btn">Leer Más</a>
+                </div>
+                <div class="container__vector">
+                    <img src="../IMG/img Contactnos/undraw_Code_thinking_re_gka2.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+        
+
+        <!-- NO TOCAR ÉSTE CÓDIGO...> AQUÍ TE DEJO EL TUTORIAL PARA QUE HAGAS ESTE CÓDIGO:
+        https://youtu.be/0V1Bs5nV6uo -->
+
+
+        <div class="body__page">
+
+          <div class="container__card">
+
+              <div class="card c1">
+                  <div class="icon">
+                      <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="">
+                  </div>
+                  <div class="info__description">
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, repellendus dolor dolorem voluptate aut expedita doloribus molestias modi libero excepturi cum perferendis laboriosam praesentium provident suscipit, eius impedit quidem magnam ipsa similique necessitatibus nam delectus nesciunt magni! Temporibus autem, reprehenderit amet quidem aliquid architecto, blanditiis, neque quam asperiores eum enim.</p>
+                      <input type="button" value="Leer Más">
+                  </div>
+              </div>
+
+              <div class="card c2">
+                  <div class="icon">
+                    <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="">
+                  </div>
+                  <div class="info__description">
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, repellendus dolor dolorem voluptate aut expedita doloribus molestias modi libero excepturi cum perferendis laboriosam praesentium provident suscipit, eius impedit quidem magnam ipsa similique necessitatibus nam delectus nesciunt magni! Temporibus autem, reprehenderit amet quidem aliquid architecto, blanditiis, neque quam asperiores eum enim.</p>
+                      <input type="button" value="Leer Más">
+                  </div>
+              </div>
+
+              <div class="card c3">
+                  <div class="icon">
+                    <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="">
+                  </div>
+                  <div class="info__description">
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, repellendus dolor dolorem voluptate aut expedita doloribus molestias modi libero excepturi cum perferendis laboriosam praesentium provident suscipit, eius impedit quidem magnam ipsa similique necessitatibus nam delectus nesciunt magni! Temporibus autem, reprehenderit amet quidem aliquid architecto, blanditiis, neque quam asperiores eum enim.</p>
+                      <input type="button" value="Leer Más">
+                  </div>
+              </div>
+
+              <div class="card c3">
+                <div class="icon">
+                  <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="">
+                </div>
+                <div class="info__description">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, repellendus dolor dolorem voluptate aut expedita doloribus molestias modi libero excepturi cum perferendis laboriosam praesentium provident suscipit, eius impedit quidem magnam ipsa similique necessitatibus nam delectus nesciunt magni! Temporibus autem, reprehenderit amet quidem aliquid architecto, blanditiis, neque quam asperiores eum enim.</p>
+                    <input type="button" value="Leer Más">
+                </div>
+            </div>
+
+            <div class="card c3">
+              <div class="icon">
+                <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="">
+              </div>
+              <div class="info__description">
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, repellendus dolor dolorem voluptate aut expedita doloribus molestias modi libero excepturi cum perferendis laboriosam praesentium provident suscipit, eius impedit quidem magnam ipsa similique necessitatibus nam delectus nesciunt magni! Temporibus autem, reprehenderit amet quidem aliquid architecto, blanditiis, neque quam asperiores eum enim.</p>
+                  <input type="button" value="Leer Más">
+              </div>
+          </div>
+
+          <div class="card c3">
+            <div class="icon">
+              <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="">
+            </div>
+            <div class="info__description">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, repellendus dolor dolorem voluptate aut expedita doloribus molestias modi libero excepturi cum perferendis laboriosam praesentium provident suscipit, eius impedit quidem magnam ipsa similique necessitatibus nam delectus nesciunt magni! Temporibus autem, reprehenderit amet quidem aliquid architecto, blanditiis, neque quam asperiores eum enim.</p>
+                <a href="tu_link_aqui" class="btn">Leer Más</a>
+            </div>
+        </div>
+        
+
+
+
+
+          </div>
+
+      </div>
+
+<div>
+
+      </div>
+
+
+      <div class="container-fluid bg-primary scroll-hide">
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 class="unico align-items-center text-center ">¿Como Nacio el proyecto SSS?</h1>
+        <br>
+        <div class="row">
+          <div class="col-lg-7 col-md-12 col-sm-12 col-12 espacio imagen">
+            
+            
+      <div id="carouselExampleAutoplaying" class="container carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../IMG/img preguntas frecuentes/VISION.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../IMG/img preguntas frecuentes/VISION.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../IMG/img preguntas frecuentes/VISION.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br>
+      <br>
+         
+          </div>
+          <div class="col-lg-5 col-md-12 col-sm-12  col-12 espacio texto1 d-flex align-items-center justify-content-center ">
+          
+             <p class="t">El inicio de S.S.S (Sistema de Almacenamiento Supermercado) se remonta a un equipo cohesionado de estudiantes pertenecientes al reconocido Instituto Técnico Ricaldone. Esta asombrosa empresa surge con el propósito primordial de desafiar y elevar las capacidades de los estudiantes involucrados en el desarrollo de proyectos tecnológicos de envergadura. La etapa actual del proyecto, que culmina en su magistral presentación durante la EXPO TECNICA 2023, marca un hito crucial en este emocionante viaje de aprendizaje y crecimiento, El proyecto S.S.S no solo se distingue por su enfoque técnico y su ingeniosa solución, sino también por el compromiso y la dedicación que los estudiantes han demostrado a lo largo de su desarrollo, Los estudiantes,ansiosos por recibir retroalimentación de expertos y otros asistentes, ven en este evento una oportunidad para pulir aún más su creación y considerar posibles mejoras y ampliaciones. </p>
+            
+         
+            
+         </div>
+          </div>
+        </div>
+      </div>
+
+
+      <br>
+
+      
+      
+        
+      <div class="contenedor">
+        <div class="card2"> <!-- Cambié "card" a "card2" -->
+            <div class="shoeBackground">
+                <div class="gradients">
+                    <div class="gradient second" color="blue"></div>
+                    <div class="gradient" color="red"></div>
+                    <div class="gradient" color="green"></div>
+                    <div class="gradient" color="orange"></div>
+                    <div class="gradient" color="black"></div>
+                </div>
+                <h1 class="nike">nike</h1>
+                <img src="img/logo.png" alt="" class="logo">
+                <a href="#" class="share"><i class="fas fa-share-alt"></i></a>
+
+                <img src="img/blue.png" alt="" class="shoe show" color="blue">
+                <img src="img/red.png" alt="" class="shoe" color="red">
+                <img src="img/green.png" alt="" class="shoe" color="green">
+                <img src="img/orange.png" alt="" class="shoe" color="orange">
+                <img src="img/black.png" alt="" class="shoe" color="black">
+
+            </div>
+            <div class="info">
+                <div class="shoeName">
+                    <div>
+                        <h1 class="big">Nike Zoom KD 12</h1>
+                        <span class="new">new</span>
+                    </div>
+                    <h3 class="small">Men's running shoes</h3>
+                </div>
+                <div class="description">
+                    <h3 class="title">Product Info</h3>
+                    <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+                </div>
+                <div class="color-container">
+                    <h3 class="title">Color</h3>
+                    <div class="colors">
+                        <span class="color active" primary="#2175f5" color="blue"></span>
+                        <span class="color" primary="#f84848" color="red"></span>
+                        <span class="color" primary="#29b864" color="green"></span>
+                        <span class="color" primary="#ff5521" color="orange"></span>
+                        <span class="color" primary="#444" color="black"></span>
+                    </div>
+                </div>
+                <div class="size-container">
+                    <h3 class="title">size</h3>
+                    <div class="sizes">
+                      <a href="#" class="bi bi-facebook"></a>
+                      <a href="#" class="bi bi-twitter"></a>
+                      <a href="#" class="bi bi-instagram"></a>
+                      <a href="#" class="bi bi-linkedin"></a>
+                    </div>
+                </div>
+                <div class="buy-price">
+                    <a href="#" class="buy"><i class="fas fa-shopping-cart"></i>Add to card</a>
+                    <div class="price">
+                        <i class="fas fa-dollar-sign"></i>
+                        <h1>189.99</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+<br>
+<br>
+
+<!--FOOTER-->
+
+<div class="container_all" id="container__all">
+
+
+
+<div class="header1">
+  
+  
+
+  <!--Content before waves-->
+  <div class="inner-header flex">
+
+  
+    
+  <!--Just the logo.. Don't mind this-->
+  <h1>SUPERMARKET STORAGE SYSTEM</h1>
+  </div>
+  
+  <p>hlaaddsdsads</p>
+  
+  <!--Waves Container-->
+
+  <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+  <defs>
+  <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+  </defs>
+  <g class="parallax">
+  <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+  <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+  <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+  <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+  </g>
+  </svg>
+  </div>
+
+  <footer class="bg-light text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+      
+</div>
+
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1"
+        style="background-color: #3b5998;"
+      href="#!"
+      role="button"
+          ><i class="bi bi-instagram"></i></a>
+  
+        
+        <a class="btn btn-outline-light btn-floating m-1" style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+          ><i class="bi bi-facebook"></i></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" 
+        style="background-color: #3b5998;"
+      href="#!"
+      role="button"
+          ><i class="bi bi-messenger"></i>
+        </a>
+
+        <a class="btn btn-outline-light btn-floating m-1" 
+        style="background-color: #3b5998;"
+      href="#!"
+      role="button"
+          ><i class="bi bi-linkedin"></i
+        ></a>
+
+
+        <a class="btn btn-outline-light btn-floating m-1" 
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+        ><i class="bi bi-twitter"></i>
+        </a>
+
+
+        <a class="btn btn-outline-light btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+          ><i class="bi bi-envelope-at-fill"></i></a>
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: #fff;">
+      <a href="">© 2023 Copyright:</a>
+      <a class="text-black" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+
+
+<script src="../JS/Acerca de Nosotros.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</script>
 
 </body>
 </html>

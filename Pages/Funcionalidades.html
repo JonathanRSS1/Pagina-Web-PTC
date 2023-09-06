@@ -32,113 +32,197 @@
 
 
   <!--Barra de navegacion-->
-<nav class="navbar navbar-expand-md bg-light">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbar-Toggler">
-      <div class="d-flex align-items-center"> <!-- Agrega la clase flexbox para alinear elementos -->
-        <a class="navbar-brand" href="#">
-          <img src="../IMG/compras.png" width="50" alt="Logo de la pagina web ">
-        </a>
-        <p class="ms-3 mb-0 custom-text">S.S.S</p>
-      </div>
-
-      <ul class="navbar-nav d-flex justify-content-center aling-items-center ">
-        <li class="nav-item">
-          <a class="nav-link custom-link" aria-current="page" href="../index.html">INICIO</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link custom-link" href="../Pages/Funcionalidades.html">FUNCIONALIDADES</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link custom-link" href="../Pages/Acerca De Nosotros.html">ACERCA DE NOSOTROS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link custom-link" href="../Pages/Contactanos.html">CONTACTANOS</a>
-        </li>
-      </ul>
-
-    </div>
-  </div>
-</nav>
-
-
-  <div class="container-fluid bg-primary">
-    <br>
-    <br>
-
-    <div class="row">
-      <div class="col-lg-7 col-md-12 col-sm-12 col-12 espacio imagen">
-        <img src="../IMG/Img Funcionalidades/Imagen 1 pagina 2.svg" alt="Imagen" class="img-fluid"> 
-     
-      </div>
-      <div class="col-lg-5 col-md-12 col-sm-12 col-12 espacio imagen">
-        <img src="../IMG/Img Funcionalidades/Imagen 2 pagina 2.svg" alt="Imagen" class="img-fluid"> 
-     
-      </div>
+  <nav class="navbar navbar-expand-lg bg-light fixed-top"> <!-- Agregamos la clase "fixed-top" para fijar la barra de navegación en la parte superior -->
+    <div class="container-fluid">
+      
+      <a class="navbar-brand" href="#"><a class="navbar-brand" href="#">
+        <img src="../IMG/LOGO2.svg" alt="Bootstrap" width="30" height="34">
+      </a>
+  </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 center"> <!-- Utilizamos la clase "center" para centrar los elementos -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html"><button type="button" class="btn ">INICIO</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Pages/Funcionalidades.html"><button type="button" class="btn ">FUNCIONALIDADES</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Pages/Acerca De Nosotros.html"><button type="button" class="btn ">ACERCA DE NOSOTROS</button></a>
+          </li>
           
-  </div>
-     </div>
+          <li class="nav-item">
+            <a class="nav-link" href="../Pages/Contactanos.html"><button type="button" class="btn ">CONTACTANOS</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Pages/Preguntas Frecuentes.html"><button type="button" class="btn ">PREGUNTAS FRECUENTES</button></a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto"> <!-- Utilizamos la clase "ml-auto" para mover "LICENCIA" a la derecha -->
+          <li class="nav-item">
+            <a class="nav-link" href="../Pages/Licencia.html"><button type="button" class="btn btn-dark"><i class="bi bi-handbag-fill"></i><br>LICENCIA</button></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+        
+
+  <div class="container_all" id="container__all">
+    <div class="cover">
+
+        <!--INICIO WAVE-->
+
+            <div class="bg_color"></div>
+            <div class="wave w1"></div>
+            <div class="wave w2"></div>
+
+        <!--FINAL WAVE-->
+
+        <div class="container__cover">
+            <div class="container__info">
+                <h1>Funciones?</h1>
+                <h2>Herramietas?</h2>
+                <p>Alguna vez te has preguntado la cnatidad de supermercados que pierden dinero a diario por que no pueden agilizar de un mejor manera el proceso de compra ,con este program lo podemos solucionar</p>
+                <a href="tu_link_aqui" class="btn">Leer Más</a>
+            </div>
+            <div class="container__vector">
+                <img src="../IMG/Img Funcionalidades/Imagen 1 pagina 2.svg" alt="">
+            </div>
+        </div>
+    </div>
+    
+
+<br>
+<br>
+  
+
 
 <br>
      
 
-     <section class="card">
-      <article class="card_item">
-          <div class="card_content">
-              <figure class="card_picture">
-                  <img src="../IMG/Img Funcionalidades/FLEX1.svg" class="card_img">
-              </figure>
+<div class="container mt-5">
+  <div class="row flex-row gap-3">
+    <article class="card_item">
+        <div class="card_content">
+            <figure class="card_picture">
+                <img src="../IMG/Img Funcionalidades/FLEX1.svg" class="card_img">
+            </figure>
 
-              <div class="card_texts">
-                  <h2 class="card_title"> Hola</h2>
-                  <p class="card_parragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat iste eaque maiores totam mollitia veritatis voluptatibus fugiat quia eos incidunt.</p>
+            <div class="card_texts">
+                <h2 class="card_title"> Hola</h2>
+                <p class="card_parragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat iste eaque maiores totam mollitia veritatis voluptatibus fugiat quia eos incidunt.</p>
 
 
-              </div>
+            </div>
+        </div>
+    </article>
+
+
+
+    <article class="card_item">
+        <div class="card_content">
+            <figure class="card_picture">
+                <img src="../IMG/Img Funcionalidades/FLEX2.svg" class="card_img">
+
+            </figure>
+
+            <div class="card_texts">
+                <h2 class="card_title"> Hola2</h2>
+                <p class="card_parragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat iste eaque maiores totam mollitia veritatis voluptatibus fugiat quia eos incidunt.</p>
+                
+
+
+            </div>
+        </div>
+    </article>
+
+
+
+    
+    <article class="card_item">
+      <div class="card_content">
+          <figure class="card_picture">
+              <img src="../IMG/Img Funcionalidades/FLEX3.svg" class="card_img">
+
+          </figure>
+
+          <div class="card_texts">
+              <h2 class="card_title">Hola 3 </h2>
+              <p class="card_parragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat iste eaque maiores totam mollitia veritatis voluptatibus fugiat quia eos incidunt.</p>
+              
+
+
           </div>
-      </article>
-  
+      </div>
+  </article>
+  </div>
+</div>
 
 
-      <article class="card_item">
-          <div class="card_content">
-              <figure class="card_picture">
-                  <img src="../IMG/Img Funcionalidades/FLEX2.svg" class="card_img">
+<main>
 
-              </figure>
+  <h1 class="title">Menú De funciones</h1>
 
-              <div class="card_texts">
-                  <h2 class="card_title"> Hola2</h2>
-                  <p class="card_parragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat iste eaque maiores totam mollitia veritatis voluptatibus fugiat quia eos incidunt.</p>
-                  
+  <div class="main-menu">
 
-
-              </div>
+      <a href="#">
+          <div class="option">
+              <img src="images/programación.svg" alt="">
+              <h2>1</h2>
           </div>
-      </article>
-  
-
-  
-      <article class="card_item">
-          <div class="card_content">
-              <figure class="card_picture">
-                  <img src="../IMG/Img Funcionalidades/FLEX3.svg" class="card_img">
-
-              </figure>
-
-              <div class="card_texts">
-                  <h2 class="card_title">Hola 3 </h2>
-                  <p class="card_parragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat iste eaque maiores totam mollitia veritatis voluptatibus fugiat quia eos incidunt.</p>
-                  
-
-
-              </div>
+      </a>
+      <a href="#">
+          <div class="option">
+              <img src="images/diseño.svg" alt="">
+              <h2>2</h2>
           </div>
-      </article>
-  </section>
+      </a>
+      <a href="#">
+          <div class="option">
+              <img src="images/pelicula.svg" alt="">
+              <h2>3</h2>
+          </div>
+      </a>
+      <a href="#">
+          <div class="option">
+              <img src="images/imagenes.svg" alt="">
+              <h2>4</h2>
+          </div>
+      </a>
+
+      <a href="#">
+          <div class="option">
+              <img src="images/marketing.svg" alt="">
+              <h2>5 </h2>
+          </div>
+      </a>
+
+      <a href="#">
+          <div class="option">
+              <img src="images/blog.svg" alt="">
+              <h2>6</h2>
+          </div>
+      </a>
+
+  </div>
+
+</main>
+
+
+
+
 
 <br>
 <br>
@@ -149,28 +233,99 @@
 
 <!--FOOTER-->
 
-<footer>
+<!--FOOTER-->
 
-  <div class="waves">
-      <div class="wave" id="wave1"></div>
-      <div class="wave" id="wave2"></div>
-      <div class="wave" id="wave3"></div>
-      <div class="wave" id="wave4"></div>
+
+
+<div class="header1">
+
+  <!--Content before waves-->
+  <div class="inner-header flex">
+  <!--Just the logo.. Don't mind this-->
+  
+  <h1>SUPERMARKET STORAGE SYSTEM</h1>
   </div>
   
-  <ul class="social_icon">
-    <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
-    <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
-    <li><a href="#"><ion-icon name="link-outline"></ion-icon></a></li>
-    <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
-  </ul>
+  <p>hlaaddsdsads</p>
   
+  <!--Waves Container-->
+  <div>
+  <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+  <defs>
+  <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+  </defs>
+  <g class="parallax">
+  <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+  <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+  <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+  <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+  </g>
+  </svg>
+  </div>
 
-<p>!! Copyright © 2023 derechos reservados a JJNMDA</p>
+  <footer class="bg-light text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+      
+</div>
+
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1"
+        style="background-color: #3b5998;"
+      href="#!"
+      role="button"
+          ><i class="bi bi-instagram"></i></a>
+  
+        
+        <a class="btn btn-outline-light btn-floating m-1" style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+          ><i class="bi bi-facebook"></i></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" 
+        style="background-color: #3b5998;"
+      href="#!"
+      role="button"
+          ><i class="bi bi-messenger"></i>
+        </a>
+
+        <a class="btn btn-outline-light btn-floating m-1" 
+        style="background-color: #3b5998;"
+      href="#!"
+      role="button"
+          ><i class="bi bi-linkedin"></i
+        ></a>
+
+
+        <a class="btn btn-outline-light btn-floating m-1" 
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+        ><i class="bi bi-twitter"></i>
+        </a>
+
+
+        <a class="btn btn-outline-light btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+          ><i class="bi bi-envelope-at-fill"></i></a>
 
 
 
-</footer>
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: #fff;">
+      <a href="">© 2023 Copyright:</a>
+      <a class="text-black" href="https://mdbootstrap.com/">SSS</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

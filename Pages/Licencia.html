@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <link rel="stylesheet" href="../CSS/Licencia.css" />
+    <title>Formulario de Compra</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="forms-container">
+        <br>
+        <br>
+        <br>
+          <div class="signin-signup">
+            <form action="#" class="sign-in-form" id="signin-form">
+              <h2 class="title">Iniciemos el proceso de compra</h2>
+              <div class="input-field">
+                  <i class="fas fa-user"></i>
+                  <input id="nombre"   type="text" placeholder="Nombres" />
+              </div>
+
+              <div class="input-field">
+                <i class="fas fa-user"></i>
+                <input id="Apellidos" type="text" placeholder="Apellidos" />
+            </div>
+
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email" />
+          </div>
+              <div class="input-field">
+                  <i class="fas fa-lock"></i>
+                  <input type="password" placeholder="Contrseña" />
+              </div>
+              
+              <a type="submit"  href="../index.html">Regresar al inicio</a>
+              <p class="social-text">Siguenos en nuestras redes sociales</p>
+              <div class="social-media">
+                  <a href="#" class="social-icon">
+                      <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#" class="social-icon">
+                      <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#" class="social-icon">
+                      <i class="fab fa-google"></i>
+                  </a>
+                  <a href="#" class="social-icon">
+                      <i class="fab fa-linkedin-in"></i>
+                  </a>
+              </div>
+          </form>
+          <form action="#" class="sign-up-form" id="signup-form">
+            <h2 class="title">Ya Casi Terminamos!!</h2>
+            <div class="input-field">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Titular de la Tarjeta (Nombre)" />
+            </div>
+        
+            <div class="input-field">
+                <i class="fas fa-credit-card"></i>
+                <input type="text" placeholder="Número de Tarjeta" id="numeroTarjeta" />
+            </div>
+        
+            <div class="small-input-field inline">
+                <div class="input-field">
+                    <i class="fas fa-calendar"></i>
+                    <input type="date" placeholder="Fecha de Caducidad" />
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input
+                      type="text"
+                      placeholder="CVV"
+                      id="cvv"
+                      maxlength="3"
+                      pattern="\d{3}"
+                      title="Ingrese un CVV válido de 3 dígitos"
+                    />
+                  </div>
+            </div>
+        
+            <button type="button" class="btn solid" onclick="comprar()">Comprar</button>
+            
+            <a type="submit" href="../index.html">Regresar al inicio</a>
+            <p class="social-text">Siguenos en nuestras redes sociales</p>
+        </form>
+          </div>
+      </div>
+      <br>
+      <br>
+
+      <div class="panels-container">
+          <div class="panel left-panel">
+              <div class="content">
+                  <h3>Continuemos con el proceso</h3>
+                  <p>
+                      Recuerda llenar todos los campos!!
+                  </p>
+                  <button class="btn transparent" id="sign-up-btn">
+                      CONTINUAR
+                  </button>
+              </div>
+              <img src="img/log.svg" class="image" alt="" />
+          </div>
+          <div class="panel right-panel">
+              <div class="content">
+                  <h3>Un paso mas</h3>
+                  <p>
+                    Recuerda llenar todos los campos!! 
+                    Si no los llenaste regresa
+                  </p>
+                  <button class="btn transparent" id="sign-in-btn">
+                      Regresar
+                  </button>
+              </div>
+              <img src="img/register.svg" class="image" alt="" />
+          </div>
+      </div>
+  </div>
+
+    <script src="../JS/Licencia.js"></script>
+  </body>
+</html>

@@ -10,6 +10,10 @@
     <meta name="keywords" content="HTML, CSS, JavaScript, React ">
     <meta name="viewport" content="width=device-width, initial-scale=1.02">
 
+    
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+
 <!--Titulo-->
 <title>SSS</title>
 
@@ -23,65 +27,140 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
-<script src="/Js/inicio.js"></script>
+   
 
 </head>
 
-<body>
-
-<!--Barra de navegacion-->
-<nav class="navbar navbar-expand-md bg-light">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbar-Toggler">
-      <div class="d-flex align-items-center"> <!-- Agrega la clase flexbox para alinear elementos -->
-        <a class="navbar-brand" href="#">
-          <img src="./IMG/compras.png" width="50" alt="Logo de la pagina web ">
+<body class="body">
+  <header class="header">
+    <nav class="header-nav">
+      <div class="header-nav-container">
+        <a href="#hero" class="header-nav__logo-container">
+          <img src="./IMG/LOGO2.svg" alt="Logo de la Web" class="header-nav__logo" width="48" height="48" />
         </a>
-        <p class="ms-3 mb-0 custom-text" id="SSS">S.S.S</p>
+        <figure class="header-nav__menu-icon-container" id="headerNavMenuIconContainer">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#fff" class="header-nav__menu-icon">
+            <path d="M4 6h16v2H4zm4 5h12v2H8zm5 5h7v2h-7z"></path>
+          </svg>
+        </figure>
+        <ul class="header-nav__menu-link-list">
+          <li class="header-nav__menu-link-item">
+            <a href="./Pages/Funcionalidades.html" class="header-nav__menu-link">FUNCIONALIDADES</a>
+          </li>
+          <li class="header-nav__menu-link-item">
+            <a href="./Pages/Acerca De Nosotros.html" class="header-nav__menu-link">ACERCA DE NOSOTROS</a>
+          </li>
+          <li class="header-nav__menu-link-item">
+            <a href="./Pages/Contactanos.html" class="header-nav__menu-link">CONTACTANOS</a>
+          </li>
+          <li class="header-nav__menu-link-item">
+            <a href="./Pages/Preguntas Frecuentes.html" class="header-nav__menu-link">PREGUNTAS FRECUENTES</a>
+          </li>
+          
+          
+          <li class="header-nav__menu-link-item header-nav__menu-close-icon-container"
+            id="headerNavMenuCloseIconContainer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#fff" class="header-nav__menu-close-icon">
+              <path
+                d="M9.172 16.242 12 13.414l2.828 2.828 1.414-1.414L13.414 12l2.828-2.828-1.414-1.414L12 10.586 9.172 7.758 7.758 9.172 10.586 12l-2.828 2.828z">
+              </path>
+              <path
+                d="M12 22c5.514 0 10-4.486 10-10S17.514 2 12 2 2 6.486 2 12s4.486 10 10 10zm0-18c4.411 0 8 3.589 8 8s-3.589 8-8 8-8-3.589-8-8 3.589-8 8-8z">
+              </path>
+            </svg>
+          </li>
+        </ul>
       </div>
+    </nav>
+  </header>
 
-      <ul class="navbar-nav d-flex justify-content-center aling-items-center ">
-        <li class="nav-item">
-          <a class="nav-link custom-link" aria-current="page" href="">INICIO</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link custom-link" href="./Pages/Funcionalidades.html">FUNCIONALIDADES</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link custom-link" href="./Pages/Acerca De Nosotros.html">ACERCA DE NOSOTROS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link custom-link" href="./Pages/Contactanos.html">CONTACTANOS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link custom-link" href="./Pages/Preguntas Frecuentes.html">PREGUNTAS FRECUENTES</a>
-        </li>
-        
-      </ul>
+  <main class="main">
+    <section class="hero" id="hero">
+      <div class="hero__container">
+        <h1 class="hero__title">SUPERMARKET STORAGE SYSTEM</h1>
+      </div>
+      <a href="./Pages/Licencia.html" class="hero__learn-button hero__learn-button--active">COMPRAR</a>
+      <figure class="hero__stars-image-container">
+        <img src="./img/hero-stars.png" alt="Estrellas de fondo" class="hero__stars-image" />
+      </figure>
+      <figure class="hero__moon-image-container">
+        <img src="./img/hero-moon.png" alt="Estrellas de fondo" class="hero__moon-image" />
+      </figure>
+      <figure class="hero__mountains-behind-image-container">
+        <img src="./IMG/Copia de HOAL.svg" alt="Estrellas de fondo" class="hero__mountains-behind-image" />
+      </figure>
+      <figure class="hero__mountains-front-image-container">
+        <img src="./IMG/Lados1.svg" alt="Estrellas de fondo" class="hero__mountains-front-image" />
+      </figure>
+    </section>
 
-    </div>
-  </div>
-</nav>
+    <section class="learning" id="learning">
+      <div class="learning__container">
+        <h2 class="learning__topic-title">SSS</h2>
+        <p class="learning__paragraph">
+          SSS(Supermarket Storage System) Significa 
+        </p>
+        <div class="learning__topics">
+          <div class="learning__topic">
+            <div class="learning__topic-icon-container">
+              <img src="./img/code.svg" alt="Ícono de etiqueta" class="learning__topic-icon" />
+            </div>
+            <h3 class="learning__topic-title">1</h3>
+            <p class="learning__topic-paragraph">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est optio nihil, placeat molestiae reprehenderit dolore eligendi expedita quasi nemo. Unde fugit doloremque pariatur nihil minima iure voluptatibus velit tempore blanditiis.
+            </p>
+          </div>
 
-  <br>
+          <div class="learning__topic">
+            <div class="learning__topic-icon-container">
+              <img src="./img/shapes.svg" alt="Ícono de componentes" class="learning__topic-icon" />
+            </div>
+            <h3 class="learning__topic-title">2</h3>
+            <p class="learning__topic-paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, laudantium expedita obcaecati quisquam dignissimos adipisci quam consequatur, est id consectetur quo! Laborum, voluptas hic. Dolores quaerat perspiciatis laborum est rerum!
+            </p>
+          </div>
+
+          <div class="learning__topic">
+            <div class="learning__topic-icon-container">
+              <img src="./img/paint.svg" alt="Ícono de estilos" class="learning__topic-icon" />
+            </div>
+            <h3 class="learning__topic-title"> 3</h3>
+            <p class="learning__topic-paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti facilis eius et incidunt fuga vitae, minus explicabo aspernatur magnam nisi. At quaerat modi earum maiores ullam alias. Illo, neque laboriosam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+
+
+
+<!-- Navbar-->
+
+
+
+
+
+<!-- Navbar -->
+ 
 
 
 <!--Cuerpo de El inicio-->
 
   
 
-    <div class="hero-principal">
-
-      <img class="hero-imagen-desarrollador" src="./IMG/AZUL.svg" alt="">
-
-    </div>
+    
  
 
 
-<div class="container-fluid bg-light">
+<div class="container-fluid bg-light scroll-hide">
+  <br>
+  <br>
   <br>
   <br>
   <h1 class="unico">¿Qué es Supermarket Storage System?</h1>
@@ -105,7 +184,7 @@
 
 
 
-<div class="container-fluid  bg-primary">
+<div class="container-fluid  bg-primary scroll-hide">
   <br>
   <br>
   <h1 class="t">¿Cual es el tema general de este Proyecto?</h1>
@@ -130,7 +209,7 @@
 <br>
 
 
-<div class="container-fluid">
+<div class="container-fluid scroll-hide">
   <div class="row">
     <br>
     <br>
@@ -150,52 +229,113 @@
     </div>
   </div>
 </div>
-<br>
 
 
 
 
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
+
 
 <!--FOOTER-->
 
-<footer>
 
-  <div class="waves">
-      <div class="wave" id="wave1"></div>
-      <div class="wave" id="wave2"></div>
-      <div class="wave" id="wave3"></div>
-      <div class="wave" id="wave4"></div>
+
+<div class="header1">
+
+  <!--Content before waves-->
+  <div class="inner-header flex">
+  <!--Just the logo.. Don't mind this-->
+  
+  <h1>SUPERMARKET STORAGE SYSTEM</h1>
   </div>
   
-  <ul class="social_icon">
-    <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
-    <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
-    <li><a href="#"><ion-icon name="link-outline"></ion-icon></a></li>
-    <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
-  </ul>
+  <p>hlaaddsdsads</p>
   
+  <!--Waves Container-->
+  <div>
+  <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+  <defs>
+  <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+  </defs>
+  <g class="parallax">
+  <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+  <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+  <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+  <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+  </g>
+  </svg>
+  </div>
 
-<p>!! Copyright © 2023 derechos reservados a JJNMDA</p>
+  <footer class="bg-light text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+      
+</div>
+
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1"
+        style="background-color: #3b5998;"
+      href="#!"
+      role="button"
+          ><i class="bi bi-instagram"></i></a>
+  
+        
+        <a class="btn btn-outline-light btn-floating m-1" style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+          ><i class="bi bi-facebook"></i></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" 
+        style="background-color: #3b5998;"
+      href="#!"
+      role="button"
+          ><i class="bi bi-messenger"></i>
+        </a>
+
+        <a class="btn btn-outline-light btn-floating m-1" 
+        style="background-color: #3b5998;"
+      href="#!"
+      role="button"
+          ><i class="bi bi-linkedin"></i
+        ></a>
+
+
+        <a class="btn btn-outline-light btn-floating m-1" 
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+        ><i class="bi bi-twitter"></i>
+        </a>
+
+
+        <a class="btn btn-outline-light btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+          ><i class="bi bi-envelope-at-fill"></i></a>
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: #fff;">
+      <a href="">© 2020 Copyright:</a>
+      <a class="text-black" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
 
 
 
-</footer>
-
+<script src="./JS/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</body>
-
-<!--script de boostrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  
 </body>
 </html>
