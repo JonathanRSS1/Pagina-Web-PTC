@@ -45,7 +45,7 @@ function comprar() {
   } else {
     Swal.fire(
       'Error',
-      'Por favor, complete todos los campos en ambos formularios para comprar.',
+      'Por favor, complete todos los campos en ambos formularios para comprar   .',
       'error'
     );
   }

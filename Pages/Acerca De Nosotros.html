@@ -26,6 +26,8 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700&display=swap" rel="stylesheet">
   
 
+  <script src="../JS/Navbar y Footer/Navbar/menuPages.js"></script>
+  <script src="../JS/Navbar y Footer/Footer/footerPages.js"></script>
 
 </head>
 
@@ -34,43 +36,7 @@
 
     <body>
 
-      <nav class="navbar navbar-expand-lg bg-light "> <!-- Agregamos la clase "fixed-top" para fijar la barra de navegación en la parte superior -->
-        <div class="container-fluid">
-          
-          <a class="navbar-brand" href="#"><a class="navbar-brand" href="#">
-            <img src="./IMG/LOGO2.svg" alt="Bootstrap" width="30" height="34">
-          </a>
-      </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 center"> <!-- Utilizamos la clase "center" para centrar los elementos -->
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html"><button type="button" class="btn ">INICIO</button></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../Pages/Funcionalidades.html"><button type="button" class="btn ">FUNCIONALIDADES</button></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../Pages/Acerca De Nosotros.html"><button type="button" class="btn ">ACERCA DE NOSOTROS</button></a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link" href="../Pages/Contactanos.html"><button type="button" class="btn ">CONTACTANOS</button></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../Pages/Preguntas Frecuentes.html"><button type="button" class="btn ">PREGUNTAS FRECUENTES</button></a>
-              </li>
-            </ul>
-            <ul class="navbar-nav ml-auto"> <!-- Utilizamos la clase "ml-auto" para mover "LICENCIA" a la derecha -->
-              <li class="nav-item">
-                <a class="nav-link" href="../Pages/Licencia.html"><button type="button" class="btn btn-dark"><i class="bi bi-handbag-fill"></i><br>LICENCIA</button></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <div id="menuContenedor"></div>
 
       
       
@@ -118,7 +84,7 @@
                   </div>
                   <div class="info__description">
                       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, repellendus dolor dolorem voluptate aut expedita doloribus molestias modi libero excepturi cum perferendis laboriosam praesentium provident suscipit, eius impedit quidem magnam ipsa similique necessitatibus nam delectus nesciunt magni! Temporibus autem, reprehenderit amet quidem aliquid architecto, blanditiis, neque quam asperiores eum enim.</p>
-                      <input type="button" value="Leer Más">
+                    <a href="#card1">leer mas</a>
                   </div>
               </div>
 
@@ -237,70 +203,378 @@
 
       
       
-        
-      <div class="contenedor">
-        <div class="card2"> <!-- Cambié "card" a "card2" -->
-            <div class="shoeBackground">
-                <div class="gradients">
-                    <div class="gradient second" color="blue"></div>
-                    <div class="gradient" color="red"></div>
-                    <div class="gradient" color="green"></div>
-                    <div class="gradient" color="orange"></div>
-                    <div class="gradient" color="black"></div>
-                </div>
-                <h1 class="nike">nike</h1>
-                <img src="img/logo.png" alt="" class="logo">
-                <a href="#" class="share"><i class="fas fa-share-alt"></i></a>
+    
 
-                <img src="img/blue.png" alt="" class="shoe show" color="blue">
-                <img src="img/red.png" alt="" class="shoe" color="red">
-                <img src="img/green.png" alt="" class="shoe" color="green">
-                <img src="img/orange.png" alt="" class="shoe" color="orange">
-                <img src="img/black.png" alt="" class="shoe" color="black">
+    <div class="contenedor">
+      <div class="card2"> <!-- Cambié "card" a "card2" -->
+          <div class="shoeBackground">
+              <div class="gradients">
+                  <div class="gradient second" color="blue"></div>
+                  <div class="gradient" color="red"></div>
+                  <div class="gradient" color="green"></div>
+                  <div class="gradient" color="orange"></div>
+                  <div class="gradient" color="black"></div>
+              </div>
+              <h1 class="nike"></h1>
+              <img src="" alt="" class="logo">
+              <a href="#" class="share"><i class="fas fa-share-alt"></i></a>
+              <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe show" color="blue">
+              <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe" color="red">
+              <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe" color="green">
+              <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe" color="orange">
+              <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe" color="black">
+          </div>
+          <div class="info">
+              <div class="shoeName">
+                  <div>
+                      <h1 class="big">Josue Rodrigo Hernandez Jovel</h1>
+                      <span class="new">new</span>
+                  </div>
+                  <h3 class="small">Coordinador</h3>
+              </div>
+              <div class="description">
+                  <h3 class="title">Director general(Programa)</h3>
+                  <p class="text">Es la persona que cordino el proceso de la creacion de el programa</p>
+              </div>
+              <div class="color-container">
+                 
+                  <div class="colors">
+                    <div class="description">
+                      <h3 class="title">Director general(Programa)</h3>
+                      <p class="text">Es la persona que cordino el proceso de la creacion de el programa</p>
+                  </div>
+                  </div>
+              </div>
+              <div class="size-container">
+                  <h3 class="title">REDES SOCIALES</h3>
+                  <div class="sizes">
+                    
+                    <span class="size"><a href="#" ><i class="bi bi-facebook"></i></a></span>
+                    <span class="size"><a href="#" class="bi bi-twitter"></a></span>
+                    <span class="size"><a href="#" class="bi bi-instagram"></a></span>
+                    <span class="size"><a href="#" class="bi bi-linkedin"></a></span>
+                  </div>
+              </div>
+              <div class="buy-price">
+                  <a href="#" class="buy"><i class="fas fa-shopping-cart"></i>Add to card</a>
+                  <div class="price">
+                    <i class="bi bi-postcard"></i>
+                      <h1>:20230545</h1>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="contenedor">
+    <div class="card2" id="card1"> <!-- Cambié "card" a "card2" -->
+        <div class="shoeBackground">
+            <div class="gradients">
+                <div class="gradient second" color="blue"></div>
+                <div class="gradient" color="red"></div>
+                <div class="gradient" color="green"></div>
+                <div class="gradient" color="orange"></div>
+                <div class="gradient" color="black"></div>
             </div>
-            <div class="info">
-                <div class="shoeName">
-                    <div>
-                        <h1 class="big">Nike Zoom KD 12</h1>
-                        <span class="new">new</span>
-                    </div>
-                    <h3 class="small">Men's running shoes</h3>
+            <h1 class="nike"></h1>
+            <img src="" alt="" class="logo">
+            <a href="#" class="share"><i class="fas fa-share-alt"></i></a>
+            <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe show" color="blue">
+            <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe" color="red">
+            <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe" color="green">
+            <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe" color="orange">
+            <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe" color="black">
+        </div>
+        <div class="info">
+            <div class="shoeName">
+                <div>
+                    <h1 class="big">Josue Rodrigo Hernandez Jovel</h1>
+                    <span class="new">new</span>
                 </div>
-                <div class="description">
-                    <h3 class="title">Product Info</h3>
-                    <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+                <h3 class="small">Coordinador</h3>
+            </div>
+            <div class="description">
+                <h3 class="title">Director general(Programa)</h3>
+                <p class="text">Es la persona que cordino el proceso de la creacion de el programa</p>
+            </div>
+            <div class="color-container">
+               
+                <div class="colors">
+                  <div class="description">
+                    <h3 class="title">Director general(Programa)</h3>
+                    <p class="text">Es la persona que cordino el proceso de la creacion de el programa</p>
                 </div>
-                <div class="color-container">
-                    <h3 class="title">Color</h3>
-                    <div class="colors">
-                        <span class="color active" primary="#2175f5" color="blue"></span>
-                        <span class="color" primary="#f84848" color="red"></span>
-                        <span class="color" primary="#29b864" color="green"></span>
-                        <span class="color" primary="#ff5521" color="orange"></span>
-                        <span class="color" primary="#444" color="black"></span>
-                    </div>
                 </div>
-                <div class="size-container">
-                    <h3 class="title">size</h3>
-                    <div class="sizes">
-                      <a href="#" class="bi bi-facebook"></a>
-                      <a href="#" class="bi bi-twitter"></a>
-                      <a href="#" class="bi bi-instagram"></a>
-                      <a href="#" class="bi bi-linkedin"></a>
-                    </div>
+            </div>
+            <div class="size-container">
+                <h3 class="title">REDES SOCIALES</h3>
+                <div class="sizes">
+                  
+                  <span class="size"><a href="#" ><i class="bi bi-facebook"></i></a></span>
+                  <span class="size"><a href="#" class="bi bi-twitter"></a></span>
+                  <span class="size"><a href="#" class="bi bi-instagram"></a></span>
+                  <span class="size"><a href="#" class="bi bi-linkedin"></a></span>
                 </div>
-                <div class="buy-price">
-                    <a href="#" class="buy"><i class="fas fa-shopping-cart"></i>Add to card</a>
-                    <div class="price">
-                        <i class="fas fa-dollar-sign"></i>
-                        <h1>189.99</h1>
-                    </div>
+            </div>
+            <div class="buy-price">
+                <a href="#" class="buy"><i class="fas fa-shopping-cart"></i>Add to card</a>
+                <div class="price">
+                  <i class="bi bi-postcard"></i>
+                    <h1>:20230545</h1>
                 </div>
             </div>
         </div>
     </div>
+</div>
+
+
+ <div class="contenedor">
+      <div class="card2"> <!-- Cambié "card" a "card2" -->
+          <div class="shoeBackground">
+              <div class="gradients">
+                  <div class="gradient second" color="blue"></div>
+                  <div class="gradient" color="red"></div>
+                  <div class="gradient" color="green"></div>
+                  <div class="gradient" color="orange"></div>
+                  <div class="gradient" color="black"></div>
+              </div>
+              <h1 class="nike"></h1>
+              <img src="" alt="" class="logo">
+              <a href="#" class="share"><i class="fas fa-share-alt"></i></a>
+              <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe show" color="blue">
+              <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe" color="red">
+              <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe" color="green">
+              <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe" color="orange">
+              <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe" color="black">
+          </div>
+          <div class="info">
+              <div class="shoeName">
+                  <div>
+                      <h1 class="big">Josue Rodrigo Hernandez Jovel</h1>
+                      <span class="new">new</span>
+                  </div>
+                  <h3 class="small">Coordinador</h3>
+              </div>
+              <div class="description">
+                  <h3 class="title">Director general(Programa)</h3>
+                  <p class="text">Es la persona que cordino el proceso de la creacion de el programa</p>
+              </div>
+              <div class="color-container">
+                 
+                  <div class="colors">
+                    <div class="description">
+                      <h3 class="title">Director general(Programa)</h3>
+                      <p class="text">Es la persona que cordino el proceso de la creacion de el programa</p>
+                  </div>
+                  </div>
+              </div>
+              <div class="size-container">
+                  <h3 class="title">REDES SOCIALES</h3>
+                  <div class="sizes">
+                    
+                    <span class="size"><a href="#" ><i class="bi bi-facebook"></i></a></span>
+                    <span class="size"><a href="#" class="bi bi-twitter"></a></span>
+                    <span class="size"><a href="#" class="bi bi-instagram"></a></span>
+                    <span class="size"><a href="#" class="bi bi-linkedin"></a></span>
+                  </div>
+              </div>
+              <div class="buy-price">
+                  <a href="#" class="buy"><i class="fas fa-shopping-cart"></i>Add to card</a>
+                  <div class="price">
+                    <i class="bi bi-postcard"></i>
+                      <h1>:20230545</h1>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
     
+
+  <div class="contenedor">
+    <div class="card2"> <!-- Cambié "card" a "card2" -->
+        <div class="shoeBackground">
+            <div class="gradients">
+                <div class="gradient second" color="blue"></div>
+                <div class="gradient" color="red"></div>
+                <div class="gradient" color="green"></div>
+                <div class="gradient" color="orange"></div>
+                <div class="gradient" color="black"></div>
+            </div>
+            <h1 class="nike"></h1>
+            <img src="" alt="" class="logo">
+            <a href="#" class="share"><i class="fas fa-share-alt"></i></a>
+            <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe show" color="blue">
+            <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe" color="red">
+            <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe" color="green">
+            <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe" color="orange">
+            <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe" color="black">
+        </div>
+        <div class="info">
+            <div class="shoeName">
+                <div>
+                    <h1 class="big">Josue Rodrigo Hernandez Jovel</h1>
+                    <span class="new">new</span>
+                </div>
+                <h3 class="small">Coordinador</h3>
+            </div>
+            <div class="description">
+                <h3 class="title">Director general(Programa)</h3>
+                <p class="text">Es la persona que cordino el proceso de la creacion de el programa</p>
+            </div>
+            <div class="color-container">
+               
+                <div class="colors">
+                  <div class="description">
+                    <h3 class="title">Director general(Programa)</h3>
+                    <p class="text">Es la persona que cordino el proceso de la creacion de el programa</p>
+                </div>
+                </div>
+            </div>
+            <div class="size-container">
+                <h3 class="title">REDES SOCIALES</h3>
+                <div class="sizes">
+                  
+                  <span class="size"><a href="#" ><i class="bi bi-facebook"></i></a></span>
+                  <span class="size"><a href="#" class="bi bi-twitter"></a></span>
+                  <span class="size"><a href="#" class="bi bi-instagram"></a></span>
+                  <span class="size"><a href="#" class="bi bi-linkedin"></a></span>
+                </div>
+            </div>
+            <div class="buy-price">
+                <a href="#" class="buy"><i class="fas fa-shopping-cart"></i>Add to card</a>
+                <div class="price">
+                  <i class="bi bi-postcard"></i>
+                    <h1>:20230545</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="contenedor">
+  <div class="card2"> <!-- Cambié "card" a "card2" -->
+      <div class="shoeBackground">
+          <div class="gradients">
+              <div class="gradient second" color="blue"></div>
+              <div class="gradient" color="red"></div>
+              <div class="gradient" color="green"></div>
+              <div class="gradient" color="orange"></div>
+              <div class="gradient" color="black"></div>
+          </div>
+          <h1 class="nike"></h1>
+          <img src="" alt="" class="logo">
+          <a href="#" class="share"><i class="fas fa-share-alt"></i></a>
+          <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe show" color="blue">
+          <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe" color="red">
+          <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe" color="green">
+          <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe" color="orange">
+          <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe" color="black">
+      </div>
+      <div class="info">
+          <div class="shoeName">
+              <div>
+                  <h1 class="big">Josue Rodrigo Hernandez Jovel</h1>
+                  <span class="new">new</span>
+              </div>
+              <h3 class="small">Coordinador</h3>
+          </div>
+          <div class="description">
+              <h3 class="title">Director general(Programa)</h3>
+              <p class="text">Es la persona que cordino el proceso de la creacion de el programa</p>
+          </div>
+          <div class="color-container">
+             
+              <div class="colors">
+                <div class="description">
+                  <h3 class="title">Director general(Programa)</h3>
+                  <p class="text">Es la persona que cordino el proceso de la creacion de el programa</p>
+              </div>
+              </div>
+          </div>
+          <div class="size-container">
+              <h3 class="title">REDES SOCIALES</h3>
+              <div class="sizes">
+                
+                <span class="size"><a href="#" ><i class="bi bi-facebook"></i></a></span>
+                <span class="size"><a href="#" class="bi bi-twitter"></a></span>
+                <span class="size"><a href="#" class="bi bi-instagram"></a></span>
+                <span class="size"><a href="#" class="bi bi-linkedin"></a></span>
+              </div>
+          </div>
+          <div class="buy-price">
+              <a href="#" class="buy"><i class="fas fa-shopping-cart"></i>Add to card</a>
+              <div class="price">
+                <i class="bi bi-postcard"></i>
+                  <h1>:20230545</h1>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+<div class="contenedor">
+  <div class="card2" id="card3"> <!-- Cambié "card" a "card2" -->
+      <div class="shoeBackground">
+          <div class="gradients">
+              <div class="gradient second" color="blue"></div>
+              <div class="gradient" color="red"></div>
+              <div class="gradient" color="green"></div>
+              <div class="gradient" color="orange"></div>
+              <div class="gradient" color="black"></div>
+          </div>
+          <h1 class="nike"></h1>
+          <img src="" alt="" class="logo">
+          <a href="#" class="share"><i class="fas fa-share-alt"></i></a>
+          <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe show" color="blue">
+          <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe" color="red">
+          <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe" color="green">
+          <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe" color="orange">
+          <img src="../IMG/img preguntas frecuentes/NATAREN1.png" alt="" class="shoe" color="black">
+      </div>
+      <div class="info">
+          <div class="shoeName">
+              <div>
+                  <h1 class="big">Josue Rodrigo Hernandez Jovel</h1>
+                  <span class="new">new</span>
+              </div>
+              <h3 class="small">Coordinador</h3>
+          </div>
+          <div class="description">
+              <h3 class="title">Director general(Programa)</h3>
+              <p class="text">Es la persona que cordino el proceso de la creacion de el programa</p>
+          </div>
+          <div class="color-container">
+             
+              <div class="colors">
+                <div class="description">
+                  <h3 class="title">Director general(Programa)</h3>
+                  <p class="text">Es la persona que cordino el proceso de la creacion de el programa</p>
+              </div>
+              </div>
+          </div>
+          <div class="size-container">
+              <h3 class="title">REDES SOCIALES</h3>
+              <div class="sizes">
+                
+                <span class="size"><a href="#" ><i class="bi bi-facebook"></i></a></span>
+                <span class="size"><a href="#" class="bi bi-twitter"></a></span>
+                <span class="size"><a href="#" class="bi bi-instagram"></a></span>
+                <span class="size"><a href="#" class="bi bi-linkedin"></a></span>
+              </div>
+          </div>
+          <div class="buy-price">
+              <a href="#" class="buy"><i class="fas fa-shopping-cart"></i>Add to card</a>
+              <div class="price">
+                <i class="bi bi-postcard"></i>
+                  <h1>:20230545</h1>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
 
 <br>
 <br>
@@ -310,100 +584,11 @@
 <div class="container_all" id="container__all">
 
 
-
-<div class="header1">
-  
-  
-
-  <!--Content before waves-->
-  <div class="inner-header flex">
-
-  
-    
-  <!--Just the logo.. Don't mind this-->
-  <h1>SUPERMARKET STORAGE SYSTEM</h1>
-  </div>
-  
-  <p>hlaaddsdsads</p>
-  
-  <!--Waves Container-->
-
-  <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-  <defs>
-  <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-  </defs>
-  <g class="parallax">
-  <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
-  <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-  <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-  <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
-  </g>
-  </svg>
-  </div>
-
-  <footer class="bg-light text-center text-white">
-    <!-- Grid container -->
-    <div class="container p-4 pb-0">
-      <!-- Section: Social media -->
-      <section class="mb-4">
-      
-</div>
+<div id="footerContainer"></div>
 
 
-        <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1"
-        style="background-color: #3b5998;"
-      href="#!"
-      role="button"
-          ><i class="bi bi-instagram"></i></a>
-  
-        
-        <a class="btn btn-outline-light btn-floating m-1" style="background-color: #3b5998;"
-        href="#!"
-        role="button"
-          ><i class="bi bi-facebook"></i></a>
-  
-        <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" 
-        style="background-color: #3b5998;"
-      href="#!"
-      role="button"
-          ><i class="bi bi-messenger"></i>
-        </a>
-
-        <a class="btn btn-outline-light btn-floating m-1" 
-        style="background-color: #3b5998;"
-      href="#!"
-      role="button"
-          ><i class="bi bi-linkedin"></i
-        ></a>
-
-
-        <a class="btn btn-outline-light btn-floating m-1" 
-        style="background-color: #3b5998;"
-        href="#!"
-        role="button"
-        ><i class="bi bi-twitter"></i>
-        </a>
-
-
-        <a class="btn btn-outline-light btn-floating m-1"
-        style="background-color: #3b5998;"
-        href="#!"
-        role="button"
-          ><i class="bi bi-envelope-at-fill"></i></a>
-  
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: #fff;">
-      <a href="">© 2023 Copyright:</a>
-      <a class="text-black" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
-
-
-
+<script src="../JS/Navbar y Footer/Footer/cargarFooterPages.js"></script>
+<script src="../JS/Navbar y Footer/Navbar/cargarMenuPages.js"></script>
 <script src="../JS/Acerca de Nosotros.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

@@ -1,4 +1,16 @@
-
+.swal2-popup {
+    max-width: 80% !important;
+  }
+  
+  .swal2-image {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  
+  .swal2-popup .swal2-content {
+    text-align: center !important;
+    padding: 20px !important;
+  }
 /* Barra de navegacion */ 
 
 
@@ -299,6 +311,7 @@ main{
     width: 100%;
     max-width: 1200px;
     margin: auto;
+    padding: -0;
 }
 
 .title{
