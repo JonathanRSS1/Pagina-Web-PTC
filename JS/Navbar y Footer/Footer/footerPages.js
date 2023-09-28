@@ -81,8 +81,8 @@ function generarFooterPages()
     
       <!-- Copyright -->
       <div class="text-center p-3" style="background-color: #fff;">
-        <a href="">© 2020 Copyright:</a>
-        <a class="text-black" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        <a href="">© 2023 Copyright:</a>
+        <a class="text-black" href="#">SSS</a>
       </div>
       <!-- Copyright -->
     </footer>

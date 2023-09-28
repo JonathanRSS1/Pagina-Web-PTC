@@ -3,6 +3,22 @@ html{
   height: 100%;
 }
 
+::-webkit-scrollbar{
+  width: 10px;
+
+}
+
+::-webkit-scrollbar-track{
+  border:7px solid #232943;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, .5) inset;
+
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 3px;
+  background: linear-gradient(45deg,#00ffff,#77ff00); 
+ }
+
 :root {
   scroll-behavior: smooth;
   --primary-theme-color: #c8d7da;
