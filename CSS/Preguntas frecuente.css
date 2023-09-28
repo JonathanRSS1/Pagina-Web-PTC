@@ -1,3 +1,4 @@
+
 ::-webkit-scrollbar{
   width: 10px;
 
@@ -319,6 +320,12 @@ body {
 
 
 
+/* Estilos para el contenedor izquierdo */
+
+
+
+
+
 
 
 
@@ -352,7 +359,7 @@ main{
 .main-menu .option{
     width: 200px;
     height: 200px;
-    background: #f1f1f1;
+    background: #867fbe;
     margin: 20px;
     padding: 20px;
     text-align: center;
@@ -376,6 +383,13 @@ main{
     margin-top: 10px;
     color: #505050;
 }
+
+
+
+
+
+
+
 
 
 

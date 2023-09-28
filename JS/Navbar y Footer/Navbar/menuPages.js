@@ -25,7 +25,7 @@ function generarMenuPages(){
             <a class="nav-link" href="../Pages/Contactanos.html"><button type="button" class="btn ">CONTACTANOS</button></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../Pages/Preguntas Frecuentes.html"><button type="button" class="btn ">PREGUNTAS FRECUENTES</button></a>
+            <a class="nav-link" href="../Pages/Preguntas Frecuente.html"><button type="button" class="btn ">PREGUNTAS FRECUENTES</button></a>
           </li>
         </ul>
         <ul class="navbar-nav ml-auto"> <!-- Utilizamos la clase "ml-auto" para mover "LICENCIA" a la derecha -->
