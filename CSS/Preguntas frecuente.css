@@ -366,7 +366,8 @@ main{
     margin: auto;
     margin-top: 40px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    
     justify-content: center;
 }
 
@@ -422,7 +423,36 @@ main{
   color: white; /* Cambia el color del texto <p> a blanco al hacer hover en .feature */
 }
 
+/* Estilos para pantallas grandes (más de 768px de ancho) */
+@media (min-width: 768px) {
+  .main-menu {
+    flex-direction: row;
+  }
 
+  .main-menu .option {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+  }
+}
+
+/* Estilos para pantallas pequeñas (768px o menos de ancho) */
+@media (max-width: 768px) {
+  main {
+    padding: 0 20px; /* Añade espacio en los lados para que el contenido se ajuste en pantallas pequeñas */
+  }
+
+  .title23 {
+    font-size: 24px; /* Cambia el tamaño de la fuente del título para que se vea mejor en pantallas pequeñas */
+  }
+
+  .main-menu {
+    flex-direction: column; /* Cambia la dirección de flexión a columna para apilar las opciones */
+    align-items: center; /* Centra las opciones horizontalmente */
+  }
+
+  
+}
 
 
 
