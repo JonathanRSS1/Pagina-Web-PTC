@@ -43,6 +43,10 @@
     display: flex;
     justify-content: center;
   }
+
+.unico{
+  color: #ffff;
+}
   
 
 
@@ -226,8 +230,22 @@
 
 }
 
+.texto1{
+  color: #fff;
+}
 
+.title{
+  color: #fff;
+}
 
+.texto2{
+  color: #fff;
+}
+
+.title23{
+  color: #000000;
+  text-align: center;
+}
 
 
 .custom-text {
@@ -384,6 +402,25 @@ main{
     color: #505050;
 }
 
+.feature{
+  margin: 15px;
+  padding: 25px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, .3) ;
+}
+
+.feature:hover{
+  background-color: rgb(78, 162, 201);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+  
+
+}
+
+.feature:hover p {
+  color: white; /* Cambia el color del texto <p> a blanco al hacer hover en .feature */
+}
 
 
 

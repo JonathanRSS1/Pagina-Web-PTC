@@ -39,13 +39,13 @@ function generarFooterPages()
           <!-- Instagram -->
           <a class="btn btn-outline-light btn-floating m-1"
           style="background-color: #3b5998;"
-        href="#!"
+        href="https://instagram.com/supermarketsystem?igshid=MzRlODBiNWFlZA==" target="_blank"
         role="button"
             ><i class="bi bi-instagram"></i></a>
     
           
           <a class="btn btn-outline-light btn-floating m-1" style="background-color: #3b5998;"
-          href="#!"
+          href="https://www.facebook.com/profile.php?id=61551852551516&mibextid=ZbWKwL" target="_blank"
           role="button"
             ><i class="bi bi-facebook"></i></a>
     
@@ -59,15 +59,14 @@ function generarFooterPages()
   
           <a class="btn btn-outline-light btn-floating m-1" 
           style="background-color: #3b5998;"
-        href="#!"
+        href="https://www.tiktok.com/@supermarketstorag?_t=8gGEQvdbii6&_r=1" target="_blank"
         role="button"
-            ><i class="bi bi-linkedin"></i
-          ></a>
+            ><i class="bi bi-tiktok"></i></a>
   
   
           <a class="btn btn-outline-light btn-floating m-1" 
           style="background-color: #3b5998;"
-          href="#!"
+          href="https://x.com/SSS_ITR?t=qcXe5wOqz1vQbEN2qnSxOQ&s=09" target="_blank"
           role="button"
           ><i class="bi bi-twitter"></i>
           </a>
@@ -75,14 +74,14 @@ function generarFooterPages()
   
           <a class="btn btn-outline-light btn-floating m-1"
           style="background-color: #3b5998;"
-          href="#!"
+          href="../Pages/Contactanos.html" 
           role="button"
             ><i class="bi bi-envelope-at-fill"></i></a>
     
       <!-- Copyright -->
       <div class="text-center p-3" style="background-color: #fff;">
-        <a href="">© 2023 Copyright:</a>
-        <a class="text-black" href="#">SSS</a>
+        <a class="text-black" href="#">© 2023 Copyright: SSS</a>
+        <a class="text-black" href="#">JJNMDA</a>
       </div>
       <!-- Copyright -->
     </footer>
