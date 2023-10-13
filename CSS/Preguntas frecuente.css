@@ -322,7 +322,7 @@ body {
 .card_picture{
     width: 90%;
     margin: 0 auto;
-    background: cornflowerblue;
+    background: #2c96c0;
     position: relative;
     bottom: 2em;
 }
@@ -456,7 +456,30 @@ main{
 
 
 
+h1, h2 {
+  font-family: Arial, sans-serif; /* Cambia 'Arial' por la fuente que desees */
+  text-align: center;
+}
 
+/* Quitar la línea que se muestra debajo de los enlaces */
+/* Quitar la línea que se muestra debajo de los enlaces */
+a {
+  text-decoration: none !important; /* Usa !important para priorizar esta regla */
+  border: none !important; /* Elimina cualquier borde */
+}
+
+/* Centrar el texto en el contenedor */
+.main-menu {
+  text-align: center;
+}
+
+
+
+.mapa{
+  max-width: 1100px;
+  align-items: center;
+
+}
 
 
 

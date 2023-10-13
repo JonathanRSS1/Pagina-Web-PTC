@@ -1,135 +1,172 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
+
+<!--metadatos-->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../CSS/Contactanos.css">
+    <meta name="author" content="JJNMDA">
+    <meta name="description" content="Pagina web SSS">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.02">
 
-    <link rel="icon" type="image/x-icon" href="../IMG/LOGOIX.svg">
+<!--Titulo-->
+<title>SSS</title>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<!--Favicon(Icono de la pestaña)-->
+<link rel="icon" type="image/x-icon" href="../IMG/LOGOIX.svg">
+
+<!--CSS DE EL INICIO-->
+<link rel="stylesheet" href="../CSS/Contactanos.css">
+
+<script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+
+<!--Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
-    <!--script de boostrap-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
- <script src="../JS/Navbar y Footer/Footer/footerPages.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+
+
+
+    <script src="../JS/Navbar y Footer/Navbar/menuFuncionalidades.js" defer></script>
+    <script src="../JS/Navbar y Footer/Footer/footerPages.js"></script>
+    
+
 
 
 </head>
+
+
 <body>
 
-    <header>
-      <nav class="navbar navbar-expand-lg bg-light "> <!-- Agregamos la clase "fixed-top" para fijar la barra de navegación en la parte superior -->
-        <div class="container-fluid">
-          
-          <a class="navbar-brand" href="#"><a class="navbar-brand" href="#">
-            <img src="../IMG/LOGOIX.svg" alt="Bootstrap" width="30" height="34">
-          </a>
-      </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 center"> <!-- Utilizamos la clase "center" para centrar los elementos -->
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html"><button type="button" class="btn ">INICIO</button></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../Pages/Funcionalidades.html"><button type="button" class="btn ">FUNCIONALIDADES</button></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../Pages/Acerca De Nosotros.html"><button type="button" class="btn ">ACERCA DE NOSOTROS</button></a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link" href="../Pages/Contactanos.html"><button type="button" class="btn ">CONTACTANOS</button></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../Pages/Preguntas Frecuente.html"><button type="button" class="btn ">PREGUNTAS FRECUENTES</button></a>
-              </li>
-            </ul>
-            <ul class="navbar-nav ml-auto"> <!-- Utilizamos la clase "ml-auto" para mover "LICENCIA" a la derecha -->
-              <li class="nav-item">
-                <a class="nav-link" href="../Pages/Licencia.html"><button type="button" class="btn btn-dark"><i class="bi bi-handbag-fill"></i><br>LICENCIA</button></a>
-              </li>
-            </ul>
+
+  <!--Barra de navegacion-->
+  <div id="menuContenedor"></div>
+  <br>
+
+
+
+    <div class="cont11">
+
+
+      <span class="big-circle"></span>
+
+      <img src="../IMG/img Contactnos/shape.png" class="square" alt="" />
+
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Matengamonos en Contacto</h3>
+          <p class="text">
+            Si tienes alguna duda de el programa o queja sobre el funcionamiento de este contactanos desde este formulario 
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <img src="../IMG/img Contactnos/geo-alt.svg" class="icon11" alt="" />
+              <p>Avenida Aguilares 218 San Salvador CP, San Salvador 1101</p>
+            </div>
+            <div class="information">
+              <img src="../IMG/img Contactnos/envelope-at.svg" class="icon11" alt="" />
+              <p>supermarketstoragesystem@gmail.com</p>
+            </div>
+            <div class="information">
+              <img src="../IMG/img Contactnos/telephone-outbound.svg" class="icon11" alt="" />
+              <p>+503 7479 3532</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Conecta con nosotros:</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=61551852551516&mibextid=ZbWKwL" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://x.com/SSS_ITR?t=qcXe5wOqz1vQbEN2qnSxOQ&s=09" target="_blank"">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://instagram.com/supermarketsystem?igshid=MzRlODBiNWFlZA==" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="whatsapp://send?phone=+503 7479 3532" class="bi bi-whatsapp">
+                <i class=""></i>
+              </a>
+            </div>
           </div>
         </div>
-      </nav>
-    </header>
 
-    
-    <section class="contacto">
-        <div class="contenido">
-            <h2>¿Que esperas? Contactanos</h2>
-            <p>Apartado exclusiva mente con fines de resolver cuestiones realizadas por cada usuario que necesita aprender o saber como puede lograr obtener y sacarle provecho a dicho programa</p>
-        </div>
-        <div class="contenedor">
-            <div class="infoContactar">
-                <div class="box">
-                    <div class="icono"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="texto">
-                        <h3>Dirección</h3>
-                        <p>San salvador calle 24, poniente</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="icono"><i class="fa fa-phone" aria-hidden="true"></i></div>
-                    <div class="texto">
-                        <h3>Numero de telefono</h3>
-                        <p>72612013</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="icono"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
-                    <div class="texto">
-                        <h3>Email</h3>
-                        <p>SupermarketStorage@ricaldone.edu.sv</p>
-                    </div>
-                </div>
+        <div class="contact-form" >
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="https://formsubmit.co/supermarketstoragesystem@gmail.com" method="POST""  >
+            <h3 class="title">Rellena el Formulario</h3>
+           
+            <div class="input-container">
+              <input type="text" name="email" id="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
             </div>
-            <div class="formulario">
-                <form>
-                    <h2>¡Envianos un mensaje!</h2>
-                    <div class="inputBox">
-                        <input type="text" name="" required="required">
-                        <span>Nombre completo</span>
-                    </div>
-                    
-                    <div class="inputBox">
-                        <input type="text" name="" required="required">
-                        <span>Email</span>
-                    </div>
-                    
-                    <div class="inputBox">
-                        <textarea required="required"></textarea>
-                        <span>Escribe tu mensaje</span>
-                    </div>
-                    <div class="inputBox">
-                        <input type="submit" name="" value="enviar">
-                    </div>
-                </form>
+
+            
+
+            <div class="input-container">
+              <input type="text" name="name" id="name" class="input" />
+              <label for="">Asunto</label>
+              <span>Asunto</span>
             </div>
+
+            <div class="input-container textarea">
+              <textarea name="message" id="message" class="input"></textarea>
+              <label for="">Mensaje</label>
+              <span>Mensaje</span>
+            </div>
+
+            <button type="submit" class="btn btn-info"><a href="">Enviar</a></button>
+             
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="">
+          
+          
+          </form>
         </div>
-    </section>
+      </div>
 
-    <!--FOOTER-->
-    <div class="container_all" id="container__all">
+    </div>
+
+ 
 
 
+<!--FOOTER-->
 
-      <div id="footerContainer"></div>
-      
-      
-      <script src="../JS/Navbar y Footer/Footer/cargarFooterPages.js"></script>
-      <script src="../JS/Contactanos.js"></script>
-      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-      
-      </script>
+<!--FOOTER-->
 
+
+<div id="footerContainer"></div>
+
+
+<script src="../JS/Navbar y Footer/Footer/cargarFooterPages.js"></script>
+
+
+  <script src="../JS/Contactanos.js"></script>
+
+
+  
+
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<script src="../JS/Navbar y Footer/Navbar/cargarMenuFuncionalidades.js"></script>
+
+</body>
+
+<!--script de boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
